@@ -36,7 +36,7 @@ async function initialize() {
 }
 
 async function handleElementChange(e) {
-  showDebug(e.value.type);
+  //showDebug(e.value.type);
   console.log(e);
   const response = await fetch("/update-payment-intent", {
     method: "POST",
